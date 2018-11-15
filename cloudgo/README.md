@@ -11,18 +11,19 @@
  2. js请求支持
 首先使用curl测试输出  
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181115172832322.png)  
-在浏览器输出localhost:8080/进入主界面
+在浏览器输出localhost:8080/进入主界面  
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181115172914841.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3Nzc5NjA4,size_16,color_FFFFFF,t_70)  
-打开浏览器的调试器，显示js代码
+打开浏览器的调试器，显示js代码  
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181115172948468.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3Nzc5NjA4,size_16,color_FFFFFF,t_70)  
-点击call进行js调用，可以看到显示了返回的API test字样
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20181115173041884.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3Nzc5NjA4,size_16,color_FFFFFF,t_70)
+点击call进行js调用，可以看到显示了返回的API test字样  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181115173041884.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3Nzc5NjA4,size_16,color_FFFFFF,t_70)  
 
  3. 模板输出与表单处理
-在my post 表单的两个输入框中输入内容
+在my post 表单的两个输入框中输入内容  
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181115173331444.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3Nzc5NjA4,size_16,color_FFFFFF,t_70)  
-点击submit提交之后，在show my template中显示了模板输出
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20181115173435616.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3Nzc5NjA4,size_16,color_FFFFFF,t_70)
+点击submit提交之后，在show my template中显示了模板输出  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181115173435616.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3Nzc5NjA4,size_16,color_FFFFFF,t_70)  
+
  ### 扩展部分
  1. gzip代码阅读分析  
 [gzip代码链接](https://github.com/phyber/negroni-gzip/blob/master/gzip/gzip.go)
